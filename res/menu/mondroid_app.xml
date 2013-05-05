@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/item_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"/>
+    <item 
+        android:id="@+id/item_track"
+        android:orderInCategory="100"
+        android:title="@string/action_track" />
+    <item 
+        android:id="@+id/item_map"
+        android:orderInCategory="100"
+        android:title="@string/action_map" />
+    <item 
+        android:id="@+id/item_exit"
+        android:orderInCategory="100"
+        android:title="@string/action_exit" />
+</menu>
