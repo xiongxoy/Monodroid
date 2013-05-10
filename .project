@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>Monodroid</name>
+=======
+	<name>Monodroid_old</name>
+>>>>>>> 624cbe55df05bdae692b6d870aab7992b4a81d97
 	<comment></comment>
 	<projects>
 	</projects>

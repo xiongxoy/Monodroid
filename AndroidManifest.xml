@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.monodroid"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <supports-screens android:resizeable="true"
+=======
+    package="com.xiongxoy.monodroid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <supports-screens android:resizable="true"
+>>>>>>> 624cbe55df05bdae692b6d870aab7992b4a81d97
                       android:smallScreens="true"
                       android:normalScreens="true"
                       android:largeScreens="true"
                       android:anyDensity="true" />
+<<<<<<< HEAD
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -19,15 +28,25 @@
       <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <application
+=======
+      <application
+>>>>>>> 624cbe55df05bdae692b6d870aab7992b4a81d97
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
+<<<<<<< HEAD
             android:name="com.monodroid.MondroidApp"
             android:screenOrientation="landscape"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/app_name" >
+=======
+            android:name="com.xiongxoy.monodroid.MonodroidActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+>>>>>>> 624cbe55df05bdae692b6d870aab7992b4a81d97
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -35,4 +54,14 @@
         </activity>
     </application>
 
+<<<<<<< HEAD
+=======
+  <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+      <uses-permission android:name="android.permission.CAMERA"/>
+      <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+      <uses-permission android:name="android.hardware.camera" />
+      <uses-permission android:name="android.hardware.camera.autofocus" />
+>>>>>>> 624cbe55df05bdae692b6d870aab7992b4a81d97
 </manifest>
